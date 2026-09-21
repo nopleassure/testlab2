@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Компиляция Hello World"
+g++ main.cpp -o app
+echo "Запуск приложения: "
+./app
